@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/bms/v1": {
-        target: "http://localhost:3000",
+        target: "https://bookmyshow-backend-vj31.onrender.com",
         changeOrigin: true,
         secure: false,
       },
