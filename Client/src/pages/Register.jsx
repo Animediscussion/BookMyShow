@@ -2,7 +2,6 @@ import React from "react";
 import { Form, Input, Button, message, Radio } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import { RegisterUser } from "../api/user";
-import "@ant-design/v5-patch-for-react-19";
 
 const Register = () => {
   const navigate = useNavigate();
