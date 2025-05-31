@@ -4,7 +4,6 @@ import { hideLoading, showLoading } from "../redux/loaderSlice";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { message, Card, Row, Col, Button } from "antd";
-import "@ant-design/v5-patch-for-react-19";
 import moment from "moment";
 import StripeCheckout from "react-stripe-checkout";
 import { bookShow, makePayment, makePaymentAndBookShow } from "../api/booking";
