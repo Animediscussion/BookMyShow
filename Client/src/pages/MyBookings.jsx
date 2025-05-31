@@ -6,7 +6,6 @@ import { hideLoading, showLoading } from "../redux/loaderSlice";
 import { useDispatch } from "react-redux";
 import moment from "moment";
 import { Link } from "react-router-dom";
-import "@ant-design/v5-patch-for-react-19";
 
 const MyBookings = () => {
   const [bookings, setBookings] = useState([]);
