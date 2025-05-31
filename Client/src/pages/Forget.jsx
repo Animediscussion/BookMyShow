@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { Button, Form, Input, message } from "antd";
-import "@ant-design/v5-patch-for-react-19";
 import { ForgetPassword } from "../api/user";
 import { useDispatch } from "react-redux";
 import { hideLoading, showLoading } from "../redux/loaderSlice";
