@@ -4,7 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { LoginUser } from "../api/user";
 import { useDispatch } from "react-redux";
 import { hideLoading, showLoading } from "../redux/loaderSlice";
-import "@ant-design/v5-patch-for-react-19";
 
 const Login = () => {
   const navigate = useNavigate();
