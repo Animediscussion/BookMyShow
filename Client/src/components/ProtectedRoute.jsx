@@ -1,6 +1,5 @@
 import { Layout, Menu, message } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
-import "@ant-design/v5-patch-for-react-19";
 import React, { useEffect } from "react";
 import {
   HomeOutlined,
