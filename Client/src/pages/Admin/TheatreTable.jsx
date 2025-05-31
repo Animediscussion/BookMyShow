@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Table, Button, message } from "antd";
-import "@ant-design/v5-patch-for-react-19";
 import { useDispatch } from "react-redux";
 import { hideLoading, showLoading } from "../../redux/loaderSlice";
 import { getAllTheatresForAdmin, updateTheatre } from "../../api/theatre";
