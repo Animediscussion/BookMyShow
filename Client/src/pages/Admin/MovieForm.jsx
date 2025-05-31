@@ -1,5 +1,4 @@
 import { Col, Modal, Row, Form, Input, Select, Button, message } from "antd";
-import "@ant-design/v5-patch-for-react-19";
 import React from "react";
 import TextArea from "antd/es/input/TextArea";
 import { useDispatch } from "react-redux";
