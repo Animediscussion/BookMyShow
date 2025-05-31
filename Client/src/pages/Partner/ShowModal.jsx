@@ -9,7 +9,6 @@ import {
   Table,
   message,
 } from "antd";
-import "@ant-design/v5-patch-for-react-19";
 import React, { useEffect, useState } from "react";
 import moment from "moment";
 import {
