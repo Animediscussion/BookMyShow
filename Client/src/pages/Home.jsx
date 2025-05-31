@@ -5,7 +5,6 @@ import { getAllMovies } from "../api/movie";
 import { message, Row, Col, Input } from "antd";
 import { useNavigate } from "react-router-dom";
 import { SearchOutlined } from "@ant-design/icons";
-import "@ant-design/v5-patch-for-react-19";
 import moment from "moment";
 
 const Home = () => {
