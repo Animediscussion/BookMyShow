@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { hideLoading, showLoading } from "../../redux/loaderSlice";
 import { addTheatre, updateTheatre } from "../../api/theatre";
 import { Col, Modal, Row, Form, Input, Button, message } from "antd";
-import "@ant-design/v5-patch-for-react-19";
 import TextArea from "antd/es/input/TextArea";
 
 const TheatreForm = ({
