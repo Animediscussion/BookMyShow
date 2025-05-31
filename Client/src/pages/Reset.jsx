@@ -5,7 +5,6 @@ import { message } from "antd";
 import { ResetPassword } from "../api/user";
 import { useDispatch } from "react-redux";
 import { hideLoading, showLoading } from "../redux/loaderSlice";
-import "@ant-design/v5-patch-for-react-19";
 
 function Reset() {
   const navigate = useNavigate();
