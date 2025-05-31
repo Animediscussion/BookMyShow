@@ -7,7 +7,6 @@ import { hideLoading, showLoading } from "../redux/loaderSlice";
 import { CalendarOutlined } from "@ant-design/icons";
 import moment from "moment";
 import { getAllTheatresByMovie } from "../api/show";
-import "@ant-design/v5-patch-for-react-19";
 
 const SingleMovie = () => {
   const params = useParams();
