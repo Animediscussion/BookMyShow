@@ -1,5 +1,4 @@
 import { message, Modal } from "antd";
-import "@ant-design/v5-patch-for-react-19";
 import React from "react";
 import { useDispatch } from "react-redux";
 import { hideLoading, showLoading } from "../../redux/loaderSlice";
